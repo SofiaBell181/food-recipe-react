@@ -1,0 +1,133 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0.9;
+}
+
+.container-header {
+  display: flex;
+  justify-content: center;
+  background-color: #bec5bc74;
+}
+
+.header {
+  font-size: 50px;
+  font-weight: 400;
+  color: #fff;
+  text-shadow: 1px 1px #f25025;
+}
+
+.container-main {
+  margin-top: 30px;
+}
+
+input {
+  width: 100%;
+  padding: 5px 10px;
+  border: 1px solid #000000;
+  background: transparent;
+  box-shadow: inset 0px 0px 0px 4px #ddd6e8;
+  color: #000000;
+  font-size: 18px;
+  background-color: #bec5bc74;
+}
+
+input:focus {
+  outline: 0;
+}
+
+input::placeholder {
+  color: #ddd6e8;
+  font-weight: 20px;
+}
+
+.btn-search {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+
+.container-form {
+  display: flex;
+  justify-content: center;
+}
+
+.container-main {
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: auto;
+  margin-top: 20px;
+  background-color: #bec5bc74;
+  border-radius: 20px;
+}
+
+.container_recipes {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+h3 {
+  color: #000000;
+  text-shadow: 0.7px 0.1px #f25025;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 0 10px;
+}
+
+li {
+  color: #000000;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+p {
+  color: #000000;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.container-button {
+  display: flex;
+  justify-content: center;
+}
+
+.container-btn {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 50px 0;
+}
+
+.filter-bth {
+  margin: 10px;
+  background: transparent;
+  font-size: 18px;
+  color: #000000;
+  background: #ddd6e896;
+  border: none;
+  font-weight: 200;
+  padding: 7px 20px;
+}
+
+
+
