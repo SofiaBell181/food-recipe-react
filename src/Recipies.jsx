@@ -1,18 +1,17 @@
 import { useEffect, useState } from "react";
 
-function Recipies(props) {
+function Recipies({allRecipes}) {
 
     const [filtredRecipes, setFiltredRecipes] = useState([]);
 
     const filtredMeals = (dishType) => {
-        let res = props.data;
-        let filtrRes = res.filter(elem => elem.recipe.dishType[0] === dishType);
+        let filtrRes = allRecipes.filter(elem => elem.recipe.dishType[0] === dishType);
         setFiltredRecipes(filtrRes);
     }
 
     useEffect( () => {
-        if(props.data.length > 0) setFiltredRecipes(props.data)
-    }, [props])
+        if(allRecipes.length > 0) setFiltredRecipes(allRecipes)
+    }, [allRecipes])
 
     return(
         <>

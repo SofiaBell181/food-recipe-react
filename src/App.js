@@ -57,7 +57,7 @@ function App() {
         </div>
       </div>
       
-     <Recipies data={allRecipes}/>
+     <Recipies allRecipes={allRecipes}/>
     </>
   );
 }
