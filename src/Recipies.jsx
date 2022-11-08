@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import './App.css';
 
 function Recipies({allRecipes}) {
 
@@ -17,16 +18,16 @@ function Recipies({allRecipes}) {
         <>
 
         <div className="container-btn">
-            <button className="filter-bth" onClick={() => filtredMeals('salad')}>salad</button>
-            <button className="filter-bth" onClick={() => filtredMeals('starter')}>starter</button>
-            <button className="filter-bth" onClick={() => filtredMeals('soup')}>soup</button>
-            <button className="filter-bth" onClick={() => filtredMeals('main course')}>main course</button>
-            <button className="filter-bth" onClick={() => filtredMeals('sandwiches')}>sandwiches</button>
-            <button className="filter-bth hidden" onClick={() => filtredMeals('bread')}>bread</button>
-            <button className="filter-bth" onClick={() => filtredMeals('condiments and sauces')}>sauces</button>
-            <button className="filter-bth" onClick={() => filtredMeals('desserts')}>dessert</button>
-            <button className="filter-bth" onClick={() => filtredMeals('drinks')}>drinks</button>
-            <button className="filter-bth" onClick={() => filtredMeals('alcohol-cocktail')}>alcohol-cocktail</button>
+            <button className="filter-btn" onClick={() => filtredMeals('salad')}>salad</button>
+            <button className="filter-btn" onClick={() => filtredMeals('starter')}>starter</button>
+            <button className="filter-btn" onClick={() => filtredMeals('soup')}>soup</button>
+            <button className="filter-btn" onClick={() => filtredMeals('main course')}>main course</button>
+            <button className="filter-btn" onClick={() => filtredMeals('sandwiches')}>sandwiches</button>
+            <button className="filter-btn hidden" onClick={() => filtredMeals('bread')}>bread</button>
+            <button className="filter-btn" onClick={() => filtredMeals('condiments and sauces')}>sauces</button>
+            <button className="filter-btn" onClick={() => filtredMeals('desserts')}>dessert</button>
+            <button className="filter-btn" onClick={() => filtredMeals('drinks')}>drinks</button>
+            <button className="filter-btn" onClick={() => filtredMeals('alcohol-cocktail')}>alcohol-cocktail</button>
         </div>
 
         <div className="container_recipes">

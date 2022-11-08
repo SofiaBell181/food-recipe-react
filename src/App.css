@@ -118,7 +118,7 @@ p {
   margin: 50px 0;
 }
 
-.filter-bth {
+.filter-btn {
   margin: 10px;
   background: transparent;
   font-size: 18px;
@@ -127,6 +127,22 @@ p {
   border: none;
   font-weight: 200;
   padding: 7px 20px;
+  cursor: pointer;
+}
+
+@media screen and (max-width:576px) {
+    section {
+        width: 350px;
+    }
+
+    section img {
+        width: 270px;
+    }
+
+    li {
+        font-size: 14px;
+    }
+
 }
 
 

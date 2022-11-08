@@ -35,6 +35,8 @@ function App() {
   const finalSearch = (e) => {
     e.preventDefault();
     setWordSubmitted(userWord);
+    setUserWord('')
+
   }
 
   return (
